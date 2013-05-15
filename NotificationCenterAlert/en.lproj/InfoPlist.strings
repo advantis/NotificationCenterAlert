@@ -1,0 +1,32 @@
+/* Localized versions of Info.plist keys */
+
+/* AMApplication localized strings */
+/* e.g. "TextEdit" = "TextEdit"; */
+
+/* AMCategory localized strings */
+/* e.g. "Text" = "Text"; */
+
+AMName = "Display Notification Center Alert";
+
+/* AMDefaultParameters localized values */
+/* e.g. myDefaultIntegerParameter = 0; */
+/* e.g. myDefaultStringParameter = "Default String Value"; */
+
+/* AMDescription localized strings */
+AMDAlert = "";
+AMDInput = "";
+AMDNote = "";
+AMDOptions = "";
+AMDResult = "";
+AMDRequires = "";
+AMDSummary = "Displays a notification center alert.";
+AMDWebsite = "";
+
+/* AMKeyword localized strings */
+/* e.g. "Filter" = "Filter"; */
+
+/* AMWarning localized strings */
+ApplyButton = "";
+IgnoreButton = "";
+Message = "";
+

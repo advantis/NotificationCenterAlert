@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5067A5431733BE84001DACC5 /* NotificationCenterAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 501B2F22172ECDDF00C691F7 /* NotificationCenterAlert.m */; };
+		5067A5451733BE84001DACC5 /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 501B2F13172ECDDF00C691F7 /* Automator.framework */; };
+		5067A5461733BE84001DACC5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 501B2F15172ECDDF00C691F7 /* Cocoa.framework */; };
+		5067A5481733BE84001DACC5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 501B2F1E172ECDDF00C691F7 /* InfoPlist.strings */; };
+		5067A5491733BE84001DACC5 /* main.xib in Resources */ = {isa = PBXBuildFile; fileRef = 501B2F24172ECDDF00C691F7 /* main.xib */; };
+		D527A3CB9795AF77CDC2913D /* Notification.m in Sources */ = {isa = PBXBuildFile; fileRef = D527A183FBA46BCB717BA1FD /* Notification.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		501B2F13172ECDDF00C691F7 /* Automator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Automator.framework; path = System/Library/Frameworks/Automator.framework; sourceTree = SDKROOT; };
+		501B2F15172ECDDF00C691F7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		501B2F1D172ECDDF00C691F7 /* NotificationCenterAlert-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NotificationCenterAlert-Info.plist"; sourceTree = "<group>"; };
+		501B2F1F172ECDDF00C691F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		501B2F21172ECDDF00C691F7 /* NotificationCenterAlert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationCenterAlert.h; sourceTree = "<group>"; };
+		501B2F22172ECDDF00C691F7 /* NotificationCenterAlert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationCenterAlert.m; sourceTree = "<group>"; };
+		501B2F25172ECDDF00C691F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/main.xib; sourceTree = "<group>"; };
+		501B2F27172ECDDF00C691F7 /* NotificationCenterAlert-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NotificationCenterAlert-Prefix.pch"; sourceTree = "<group>"; };
+		5067A54E1733BE84001DACC5 /* Display Notification Center Alert.action */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Display Notification Center Alert.action"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D527A183FBA46BCB717BA1FD /* Notification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Notification.m; sourceTree = "<group>"; };
+		D527AADF458B5977025357C4 /* Notification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notification.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5067A5441733BE84001DACC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5067A5451733BE84001DACC5 /* Automator.framework in Frameworks */,
+				5067A5461733BE84001DACC5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		501B2F06172ECDDF00C691F7 = {
+			isa = PBXGroup;
+			children = (
+				501B2F1B172ECDDF00C691F7 /* NotificationCenterAlert */,
+				501B2F12172ECDDF00C691F7 /* Frameworks */,
+				501B2F11172ECDDF00C691F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		501B2F11172ECDDF00C691F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5067A54E1733BE84001DACC5 /* Display Notification Center Alert.action */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		501B2F12172ECDDF00C691F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				501B2F13172ECDDF00C691F7 /* Automator.framework */,
+				501B2F15172ECDDF00C691F7 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		501B2F1B172ECDDF00C691F7 /* NotificationCenterAlert */ = {
+			isa = PBXGroup;
+			children = (
+				D527AADF458B5977025357C4 /* Notification.h */,
+				D527A183FBA46BCB717BA1FD /* Notification.m */,
+				501B2F21172ECDDF00C691F7 /* NotificationCenterAlert.h */,
+				501B2F22172ECDDF00C691F7 /* NotificationCenterAlert.m */,
+				501B2F24172ECDDF00C691F7 /* main.xib */,
+				501B2F1C172ECDDF00C691F7 /* Supporting Files */,
+			);
+			path = NotificationCenterAlert;
+			sourceTree = "<group>";
+		};
+		501B2F1C172ECDDF00C691F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				501B2F1E172ECDDF00C691F7 /* InfoPlist.strings */,
+				501B2F1D172ECDDF00C691F7 /* NotificationCenterAlert-Info.plist */,
+				501B2F27172ECDDF00C691F7 /* NotificationCenterAlert-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5067A5411733BE84001DACC5 /* Display Notification Center Alert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5067A54B1733BE84001DACC5 /* Build configuration list for PBXNativeTarget "Display Notification Center Alert" */;
+			buildPhases = (
+				5067A5421733BE84001DACC5 /* Sources */,
+				5067A5441733BE84001DACC5 /* Frameworks */,
+				5067A5471733BE84001DACC5 /* Resources */,
+				5067A54A1733BE84001DACC5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Display Notification Center Alert";
+			productName = NotificationCenterAlert;
+			productReference = 5067A54E1733BE84001DACC5 /* Display Notification Center Alert.action */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		501B2F07172ECDDF00C691F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Advantis;
+			};
+			buildConfigurationList = 501B2F0A172ECDDF00C691F7 /* Build configuration list for PBXProject "NotificationCenterAlert" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 501B2F06172ECDDF00C691F7;
+			productRefGroup = 501B2F11172ECDDF00C691F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5067A5411733BE84001DACC5 /* Display Notification Center Alert */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5067A5471733BE84001DACC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5067A5481733BE84001DACC5 /* InfoPlist.strings in Resources */,
+				5067A5491733BE84001DACC5 /* main.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5067A54A1733BE84001DACC5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "amlint \"${BUILT_PRODUCTS_DIR}/${FULL_PRODUCT_NAME}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5067A5421733BE84001DACC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5067A5431733BE84001DACC5 /* NotificationCenterAlert.m in Sources */,
+				D527A3CB9795AF77CDC2913D /* Notification.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		501B2F1E172ECDDF00C691F7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				501B2F1F172ECDDF00C691F7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		501B2F24172ECDDF00C691F7 /* main.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				501B2F25172ECDDF00C691F7 /* en */,
+			);
+			name = main.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		501B2F28172ECDDF00C691F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		501B2F29172ECDDF00C691F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5067A54C1733BE84001DACC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				"GCC_ENABLE_OBJC_GC[arch=i386]" = supported;
+				"GCC_ENABLE_OBJC_GC[arch=x86_64]" = supported;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NotificationCenterAlert/NotificationCenterAlert-Prefix.pch";
+				INFOPLIST_FILE = "NotificationCenterAlert/NotificationCenterAlert-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Automator";
+				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_NAME = "Display Notification Center Alert";
+				WRAPPER_EXTENSION = action;
+			};
+			name = Debug;
+		};
+		5067A54D1733BE84001DACC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				"GCC_ENABLE_OBJC_GC[arch=i386]" = supported;
+				"GCC_ENABLE_OBJC_GC[arch=x86_64]" = supported;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NotificationCenterAlert/NotificationCenterAlert-Prefix.pch";
+				INFOPLIST_FILE = "NotificationCenterAlert/NotificationCenterAlert-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Automator";
+				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_NAME = "Display Notification Center Alert";
+				WRAPPER_EXTENSION = action;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		501B2F0A172ECDDF00C691F7 /* Build configuration list for PBXProject "NotificationCenterAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				501B2F28172ECDDF00C691F7 /* Debug */,
+				501B2F29172ECDDF00C691F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5067A54B1733BE84001DACC5 /* Build configuration list for PBXNativeTarget "Display Notification Center Alert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5067A54C1733BE84001DACC5 /* Debug */,
+				5067A54D1733BE84001DACC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 501B2F07172ECDDF00C691F7 /* Project object */;
+}
