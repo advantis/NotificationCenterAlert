@@ -1,0 +1,1 @@
+Simple Automator action for sending notifications OS X Notification Center.
