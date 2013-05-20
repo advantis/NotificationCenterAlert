@@ -267,7 +267,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NotificationCenterAlert/NotificationCenterAlert-Prefix.pch";
 				INFOPLIST_FILE = "NotificationCenterAlert/NotificationCenterAlert-Info.plist";
-				INSTALL_PATH = "$(HOME)/Library/Automator";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Automator";
 				OTHER_OSAFLAGS = "-x -t 0 -c 0";
 				PRODUCT_NAME = "Display Notification Center Alert";
 				WRAPPER_EXTENSION = action;
@@ -286,7 +286,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NotificationCenterAlert/NotificationCenterAlert-Prefix.pch";
 				INFOPLIST_FILE = "NotificationCenterAlert/NotificationCenterAlert-Info.plist";
-				INSTALL_PATH = "$(HOME)/Library/Automator";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Automator";
 				OTHER_OSAFLAGS = "-x -t 0 -c 0";
 				PRODUCT_NAME = "Display Notification Center Alert";
 				WRAPPER_EXTENSION = action;
